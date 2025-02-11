@@ -1,14 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-import Header from './components/Header';
-import Login from './components/Login';
+import Body from "./components/Body";
 
 function App() {
-  return (
+   
+return (
     <div className="App">
-      <Login />
+      <Body />
     </div>
+    
+    
   );
 }
+
+
 
 export default App;
